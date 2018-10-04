@@ -11,4 +11,5 @@ lista=list(j)
 print(lista)
 l=math.e
 print(l)
+input()
 
