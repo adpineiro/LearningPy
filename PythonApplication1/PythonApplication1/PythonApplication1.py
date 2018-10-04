@@ -9,7 +9,7 @@ for i in rango:
 j=range(2)
 lista=list(j)
 print(lista)
-l=math.e
+"""l=math.e
 print(l)
 input()
 j= int
@@ -17,5 +17,12 @@ m=1
 while m<10:
     m+=1
     print("dentro del while")
-print("Salida del while")
+print("Salida del while")"""
+suma(2,5)
 input()
+
+
+def suma(sum1, sum2):
+    sumatorio=sum1+sum2
+    print(sumatorio)
+    
