@@ -5,4 +5,6 @@ print(frase)
 rango=range(0,10,1)
 for i in rango:
     print(i)
+j=range(2)
+list(j)
 
