@@ -13,9 +13,9 @@ l=math.e
 print(l)
 input()
 j= int
-j=10
-while j>1:
-    j+=1
+m=1
+while m<10:
+    m+=1
     print("dentro del while")
 print("Salida del while")
 input()
