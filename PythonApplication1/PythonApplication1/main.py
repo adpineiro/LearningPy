@@ -1,47 +1,44 @@
-#este es un fichero de prueba de python
-#primer comentario
+"""Esta es un aplicación de consola para practicar python
+Consta de una calculadora
+Da la fecha y hora del sistema
+Crea matrices aleatorias
+Crea matrices a partir de datos del usuario"""
 
 
-from calculadora import suma, resta
+# import calculadora
 
+def calculo():
+    print("Modo calculadora")
+    print("1: Suma\n2:Resta\n3:Multiplicacion\n4:Division")
 
-resultado = suma(10, 20)
-print(resultado)
-resultado = resta(20,10)
-print(resultado)
-"""frase="hola mundo"
-print(frase)
-rango=range(0,10,1)
-for i in rango:
-    print(i)
-j=range(2)
-lista=list(j)
-print(lista)
-l=math.e
-print(l)
-input()
-j= int
-m=1
-while m<10:
-    m+=1
-    print("dentro del while")
-print("Salida del while")
-def suma(sum1, sum2):
-    sumatorio=sum1+sum2
-    print(sumatorio)
+def calendario():
+    print("Modo calendario")
 
+def random_matrix():
+    print("Modo matriz aleatoria")
 
-def factorial_numero(numero):
-    factorial = 1
-    while numero > 0:
-        factorial = factorial*numero
-        numero -= 1
-    return factorial
+def user_matrix():
+    print("Modo matriz del usuario")
 
+def exit_func():
+    print("Desea salir?")
 
-resultado = factorial_numero(5)
-print("Cálculo del factorial")
-print(resultado)
-print("Suma")
-suma(2, 5)
-input()"""
+def inicio():
+    print("Inicio: Seleccione la acción\n")
+    print("1: Calculadora\n2:Calendario\n3:Matriz aleatoria\n4:Matriz usuario\n5:Salir")
+    seleccion=int(input())
+    if seleccion == 1:
+        calculo()
+    elif seleccion == 2:
+        calendario()
+    elif seleccion == 3:
+        random_matrix()
+    elif seleccion == 4:
+        user_matrix()
+    elif seleccion == 5:
+        exit_func()
+    else:
+        print("Selección incorrecta, intentelo de nuevo")
+
+inicio()
+
