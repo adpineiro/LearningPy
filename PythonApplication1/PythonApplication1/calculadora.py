@@ -1,13 +1,18 @@
-def saluda():
-    """Función que devuelve un hola mundo
-Este es un comentario de ejemplo para crear un docstring"""
-    print("Hola mundo")
+def suma(num_uno, num_dos):
+    """Realiza una suma de dos números"""
+    return num_dos+num_uno
 
 
-# A, B, C son funciones
-# A recibe como parametro B para poder crear C
-saluda()
-documentacion = saluda.__doc__
-print(documentacion)
-nombre = saluda.__name__
-print(nombre)
+def resta(num_uno, num_dos):
+    """Realiza una resta de dos números"""
+    return num_dos-num_uno
+
+
+def multiplicacion(num_uno, num_dos):
+    """Realiza una multiplicación de dos números"""
+    return num_dos*num_uno
+
+
+def division(num_uno, num_dos):
+    """Realiza una división de dos números"""
+    return num_uno/num_dos
