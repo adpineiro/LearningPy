@@ -24,7 +24,19 @@ def suma(sum1, sum2):
     print(sumatorio)
 
 
-suma(2,5)
+def factorial_numero(numero):
+    factorial = 1
+    while numero > 0:
+        factorial = factorial*numero
+        numero -= 1
+    return factorial
+
+
+resultado = factorial_numero(5)
+print("Cálculo del factorial")
+print(resultado)
+print("Suma")
+suma(2, 5)
 input()
 
 
