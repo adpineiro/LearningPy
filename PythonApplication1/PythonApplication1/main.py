@@ -2,10 +2,14 @@
 #primer comentario
 
 
-import calculadora
+from calculadora import suma, resta
 
-resultado=
-frase="hola mundo"
+
+resultado = suma(10, 20)
+print(resultado)
+resultado = resta(20,10)
+print(resultado)
+"""frase="hola mundo"
 print(frase)
 rango=range(0,10,1)
 for i in rango:
@@ -13,7 +17,7 @@ for i in rango:
 j=range(2)
 lista=list(j)
 print(lista)
-"""l=math.e
+l=math.e
 print(l)
 input()
 j= int
@@ -21,7 +25,7 @@ m=1
 while m<10:
     m+=1
     print("dentro del while")
-print("Salida del while")"""
+print("Salida del while")
 def suma(sum1, sum2):
     sumatorio=sum1+sum2
     print(sumatorio)
@@ -40,8 +44,4 @@ print("Cálculo del factorial")
 print(resultado)
 print("Suma")
 suma(2, 5)
-input()
-
-
-
-    
+input()"""
