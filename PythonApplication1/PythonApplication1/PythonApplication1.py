@@ -1,6 +1,8 @@
 #este es un fichero de prueba de python
 #primer comentario
 import math
+import curses
+from .dir import Dir
 frase="hola mundo"
 print(frase)
 rango=range(0,10,1)
@@ -18,11 +20,14 @@ while m<10:
     m+=1
     print("dentro del while")
 print("Salida del while")"""
+def suma(sum1, sum2):
+    sumatorio=sum1+sum2
+    print(sumatorio)
+
+
 suma(2,5)
 input()
 
 
-def suma(sum1, sum2):
-    sumatorio=sum1+sum2
-    print(sumatorio)
+
     
