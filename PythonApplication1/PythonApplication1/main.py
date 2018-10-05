@@ -5,11 +5,37 @@ Crea matrices aleatorias
 Crea matrices a partir de datos del usuario"""
 
 
-# import calculadora
+import calculadora
 
 def calculo():
     print("Modo calculadora")
     print("1: Suma\n2:Resta\n3:Multiplicacion\n4:Division")
+    seleccion = int(input())
+    if seleccion == 1:
+        print("Introduce los numeros a sumar")
+        num1=int(input())
+        num2=int(input())
+        print("Resultado: ")
+        print(calculadora.suma(num1, num2))
+    elif seleccion == 2:
+        print("Introduce los numeros a restar")
+        num1=int(input())
+        num2=int(input())
+        print("Resultado: ")
+        print(calculadora.resta(num1, num2))
+    elif seleccion == 3:
+        print("Introduce los numeros a multiplicar")
+        num1=int(input())
+        num2=int(input())
+        print("Resultado: ")
+        print(calculadora.multiplicacion(num1, num2))
+    elif seleccion == 4:
+         print("Introduce los numeros a dividir")
+         num1 = int(input())
+         num2 = int(input())
+         print("Resultado: ")
+         print(calculadora.division(num1, num2))
+    else: print("Seleccion incorrecta")
 
 def calendario():
     print("Modo calendario")
