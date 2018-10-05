@@ -40,5 +40,7 @@ def inicio():
     else:
         print("Selección incorrecta, intentelo de nuevo")
 
-inicio()
+
+while True :
+    inicio()
 
